@@ -21,7 +21,8 @@ function List(props) {
               <Item
                 img={character.image}
                 name={character.name}
-                specie={character.species}
+                gender={character.gender}
+                house={character.house}
               />
             </li>
           )

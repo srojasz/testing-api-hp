@@ -1,13 +1,14 @@
 import React from 'react'
 
 function Item(props) {
-  const { name, img, specie } = props;
+  const { name, img, gender, house } = props;
   return (
 
     <div>
       <img src={img} alt={name} />
-      <p>{name}</p>
-      <p>{specie}</p>
+      <p>{`${name} / ${gender} `}</p>
+      <p>{house}</p>
+
     </div>
 
 
